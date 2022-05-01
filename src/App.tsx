@@ -1,79 +1,20 @@
 import Topbar from "./Components/Topbar/Topbar";
+import Sidebar from "./Components/Topbar/Sidebar/Sidebar";
+import "./App.css"
+
 
 const App = () => {
   return (
     <div className="App">
       <Topbar />
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
-      test <br/>
+      <div className="container">
+        <Sidebar />
+        <div className="others">
+        other pages 
+        </div>
+        
+      </div>
+      
     </div>
   );
 };
